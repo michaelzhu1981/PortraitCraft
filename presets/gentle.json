@@ -1,0 +1,7 @@
+{
+  "preset": "Gentle",
+  "amount": 85,
+  "mask": "Automatic skin",
+  "tolerance": 50,
+  "view": "Result"
+}

@@ -1,0 +1,13 @@
+{
+  "preset": "Natural",
+  "amount": 85,
+  "mask": "Automatic skin",
+  "tolerance": 50,
+  "warmth": 0,
+  "tint": 0,
+  "brightness": 0,
+  "contrast": 0,
+  "saturation": 0,
+  "sharpen": 0,
+  "view": "Result"
+}

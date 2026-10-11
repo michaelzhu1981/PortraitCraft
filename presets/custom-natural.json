@@ -1,0 +1,14 @@
+{
+  "preset": "Custom",
+  "amount": 85,
+  "fine": 85,
+  "medium": 65,
+  "large": 35,
+  "scale": 0,
+  "texture": 35,
+  "edge": 75,
+  "threshold": 45,
+  "mask": "Automatic skin",
+  "tolerance": 50,
+  "view": "Result"
+}

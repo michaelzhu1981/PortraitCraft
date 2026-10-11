@@ -1,0 +1,84 @@
+{
+  "host": "PhotoCraft CLI 0.7.0",
+  "wasm_sha256": "1bfcf5d30e311d23f93a6496e68b34ec562fab6a6483cc1d4bd0a39361281cd8",
+  "checks": [
+    {
+      "name": "host-default",
+      "seconds": 0.355,
+      "passed": true,
+      "max_error_8bit_vs_v8": 1.0
+    },
+    {
+      "name": "host-preset-gentle",
+      "seconds": 0.36,
+      "passed": true,
+      "mean_skin_change_8bit": 0.469
+    },
+    {
+      "name": "host-preset-natural",
+      "seconds": 0.366,
+      "passed": true,
+      "mean_skin_change_8bit": 1.505
+    },
+    {
+      "name": "host-preset-strong",
+      "seconds": 0.358,
+      "passed": true,
+      "mean_skin_change_8bit": 2.3
+    },
+    {
+      "name": "host-custom-natural",
+      "seconds": 0.359,
+      "passed": true
+    },
+    {
+      "name": "host-zero",
+      "seconds": 0.042,
+      "passed": true
+    },
+    {
+      "name": "host-undo",
+      "seconds": 0.365,
+      "passed": true
+    },
+    {
+      "name": "host-mask",
+      "seconds": 0.12,
+      "passed": true
+    },
+    {
+      "name": "host-16bit",
+      "seconds": 0.363,
+      "passed": true
+    },
+    {
+      "name": "host-32bit",
+      "seconds": 0.372,
+      "passed": true
+    },
+    {
+      "name": "host-selection",
+      "seconds": 0.214,
+      "passed": true
+    },
+    {
+      "name": "host-smart-object",
+      "seconds": 0.363,
+      "passed": true
+    },
+    {
+      "name": "host-large",
+      "seconds": 1.076,
+      "passed": true
+    }
+  ],
+  "fixture": "deterministic synthetic RGB skin/blue patches; no portrait quality claim",
+  "preset_metrics": {
+    "fixture": "synthetic pores plus medium-scale unevenness; default amount 85",
+    "residualMseRatio": {
+      "Gentle": 0.8868110232173164,
+      "Natural": 0.52974286184458,
+      "Strong smoothing": 0.19186817600545214
+    }
+  }
+}

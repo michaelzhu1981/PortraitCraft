@@ -1,0 +1,149 @@
+{
+  "id": "io.photocraft.portrait-smooth",
+  "name": "PortraitCraft",
+  "version": "1.0.0",
+  "kind": "filter",
+  "author": "PortraitCraft contributors",
+  "description": "Gentle, Natural and Strong smoothing use complete smoothing recipes. The seven smoothing controls apply only in Custom mode. Amount, mask, color and sharpening remain adjustable. Inspect texture at 100% zoom and select Result before applying.",
+  "overlap": 48,
+  "area": "content",
+  "params": {
+    "preset": {
+      "type": "choice",
+      "options": [
+        "Gentle",
+        "Natural",
+        "Strong smoothing",
+        "Custom"
+      ],
+      "default": "Gentle"
+    },
+    "amount": {
+      "type": "number",
+      "min": 0,
+      "max": 100,
+      "default": 85
+    },
+    "fine": {
+      "type": "number",
+      "min": 0,
+      "max": 100,
+      "default": 85
+    },
+    "medium": {
+      "type": "number",
+      "min": 0,
+      "max": 100,
+      "default": 65
+    },
+    "large": {
+      "type": "number",
+      "min": 0,
+      "max": 100,
+      "default": 35
+    },
+    "scale": {
+      "type": "int",
+      "min": 0,
+      "max": 4,
+      "default": 0
+    },
+    "texture": {
+      "type": "number",
+      "min": 0,
+      "max": 100,
+      "default": 35
+    },
+    "edge": {
+      "type": "number",
+      "min": 0,
+      "max": 100,
+      "default": 75
+    },
+    "threshold": {
+      "type": "number",
+      "min": 0,
+      "max": 100,
+      "default": 45
+    },
+    "mask": {
+      "type": "choice",
+      "options": [
+        "Automatic skin",
+        "Sampled skin",
+        "Whole image"
+      ],
+      "default": "Automatic skin"
+    },
+    "tolerance": {
+      "type": "number",
+      "min": 0,
+      "max": 100,
+      "default": 50
+    },
+    "sampleR": {
+      "type": "number",
+      "min": 0,
+      "max": 255,
+      "default": 190
+    },
+    "sampleG": {
+      "type": "number",
+      "min": 0,
+      "max": 255,
+      "default": 130
+    },
+    "sampleB": {
+      "type": "number",
+      "min": 0,
+      "max": 255,
+      "default": 100
+    },
+    "warmth": {
+      "type": "number",
+      "min": -100,
+      "max": 100,
+      "default": 0
+    },
+    "tint": {
+      "type": "number",
+      "min": -100,
+      "max": 100,
+      "default": 0
+    },
+    "brightness": {
+      "type": "number",
+      "min": -100,
+      "max": 100,
+      "default": 0
+    },
+    "contrast": {
+      "type": "number",
+      "min": -100,
+      "max": 100,
+      "default": 0
+    },
+    "saturation": {
+      "type": "number",
+      "min": -100,
+      "max": 100,
+      "default": 0
+    },
+    "sharpen": {
+      "type": "number",
+      "min": 0,
+      "max": 100,
+      "default": 0
+    },
+    "view": {
+      "type": "choice",
+      "options": [
+        "Result",
+        "Skin mask",
+        "Red overlay",
+        "Split view"
+      ],
+      "default": "Result"
+    }
+  }
+}

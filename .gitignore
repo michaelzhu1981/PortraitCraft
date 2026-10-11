@@ -1,0 +1,7 @@
+.tools/
+.cache/
+build/
+__pycache__/
+.DS_Store
+tests/output/
+
