@@ -24,8 +24,6 @@ Project documentation, CLI help, and plugin-authored choice values use English. 
 
 PhotoCraft controls the language of its menus, buttons, parameter labels, and choice strings already covered by its built-in translation catalog. Set the host's interface language to **Auto / Follow System** to use the operating system language. Custom plugin text has no general translation mechanism in ABI v1: missing host translations fall back to the English source text. This release does not add complete automatic localization or tooltips, and does not modify or rebuild PhotoCraft.
 
-The `preset`, `mask`, and `view` values sent to the plugin are English, even if the host displays a translated label. Use the exact values listed below in JSON and direct `plugin.run` calls. The batch helper accepts earlier Chinese choice values and the previous English Strong value, converting them to current values. Existing Smart Filters or direct host calls containing earlier Chinese choice values or Strong may fail host validation; reselect their options or recreate the filter using current values. Keeping the plugin ID preserves its identity, but does not migrate saved parameter strings automatically.
-
 The current [`dist/PortraitCraft-1.0.0.zip`](dist/PortraitCraft-1.0.0.zip) archive contains the English documentation and updated binary. Other ZIP files in `dist` are historical snapshots from before the version was reset to 1.0.0.
 
 ## Presets and preview
